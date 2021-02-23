@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Overview from './Concordia/Overview';
 import reportWebVitals from './reportWebVitals';
+
+require("dotenv").config();
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Overview />
   </React.StrictMode>,
   document.getElementById('root')
 );
